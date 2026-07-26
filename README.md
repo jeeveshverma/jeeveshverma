@@ -70,19 +70,36 @@ I'm an SDET focused on **backend quality** — designing scalable test automatio
 
 ### 🚀 Featured Projects
 
-Backend/infra projects built from scratch — production-shaped, fully tested, and **zero third-party dependencies** (standard library only).
+Backend/infra projects built from scratch — production-shaped, fully tested, and **zero third-party dependencies** (Go standard library only).
 
-<p align="center">
-  <a href="https://github.com/jeeveshverma/linkforge">
-    <img src="https://github-readme-stats.vercel.app/api/pin/?username=jeeveshverma&repo=linkforge&theme=tokyonight&hide_border=true" alt="linkforge"/>
-  </a>
-  <a href="https://github.com/jeeveshverma/workq">
-    <img src="https://github-readme-stats.vercel.app/api/pin/?username=jeeveshverma&repo=workq&theme=tokyonight&hide_border=true" alt="workq"/>
-  </a>
-</p>
+<table>
+<tr>
+<td width="50%" valign="top">
 
-- **[linkforge](https://github.com/jeeveshverma/linkforge)** — URL shortener + click-analytics HTTP service in Go. REST API, hand-rolled Prometheus metrics, token-bucket rate limiting, graceful shutdown. *83% coverage · distroless Docker · CI.*
-- **[workq](https://github.com/jeeveshverma/workq)** — background job queue: worker pool with exponential-backoff retries, delayed scheduling, and a dead-letter queue. *87% coverage · benchmarks · CI.*
+#### 🔗 [linkforge](https://github.com/jeeveshverma/linkforge)
+
+URL shortener + click-analytics **HTTP service** in Go — REST API, hand-rolled Prometheus metrics, token-bucket rate limiting, graceful shutdown.
+
+![CI](https://img.shields.io/github/actions/workflow/status/jeeveshverma/linkforge/ci.yml?branch=main&label=CI&style=flat-square)
+![Go](https://img.shields.io/badge/Go-00ADD8?style=flat-square&logo=go&logoColor=white)
+![coverage](https://img.shields.io/badge/coverage-83%25-brightgreen?style=flat-square)
+![stars](https://img.shields.io/github/stars/jeeveshverma/linkforge?style=flat-square&label=%E2%98%85)
+
+</td>
+<td width="50%" valign="top">
+
+#### 🧰 [workq](https://github.com/jeeveshverma/workq)
+
+Background **job queue** in Go — worker pool with exponential-backoff retries, delayed scheduling, and a dead-letter queue.
+
+![CI](https://img.shields.io/github/actions/workflow/status/jeeveshverma/workq/ci.yml?branch=main&label=CI&style=flat-square)
+![Go](https://img.shields.io/badge/Go-00ADD8?style=flat-square&logo=go&logoColor=white)
+![coverage](https://img.shields.io/badge/coverage-87%25-brightgreen?style=flat-square)
+![stars](https://img.shields.io/github/stars/jeeveshverma/workq?style=flat-square&label=%E2%98%85)
+
+</td>
+</tr>
+</table>
 
 ---
 
@@ -94,24 +111,11 @@ Backend/infra projects built from scratch — production-shaped, fully tested, a
 
 ---
 
-### 📈 GitHub Analytics
-
-<p align="center">
-  <img height="165" src="https://github-readme-stats.vercel.app/api?username=jeeveshverma&show_icons=true&theme=tokyonight&hide_border=true&include_all_commits=true&count_private=true" alt="GitHub stats"/>
-  <img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=jeeveshverma&layout=compact&theme=tokyonight&hide_border=true&langs_count=8&hide=html" alt="Top languages"/>
-</p>
+### 📈 Activity
 
 <p align="center">
   <img src="https://github-readme-streak-stats.herokuapp.com/?user=jeeveshverma&theme=tokyonight&hide_border=true" alt="GitHub streak"/>
 </p>
-
-<p align="center">
-  <img src="https://github-profile-trophy.vercel.app/?username=jeeveshverma&theme=onedark&no-frame=true&no-bg=true&column=7&margin-w=4" alt="Trophies"/>
-</p>
-
----
-
-### 🐍 Contribution graph
 
 <p align="center">
   <img src="https://raw.githubusercontent.com/jeeveshverma/jeeveshverma/output/github-snake-dark.svg" alt="Contribution snake animation"/>
