@@ -1,9 +1,8 @@
-<h1 align="center">Hi, I'm Jeevesh Verma 👋</h1>
-
 <p align="center">
-  <b>Software Development Engineer in Test (SDET)</b><br/>
-  Backend testing · API automation · Connector validation · CI/CD-driven quality engineering
+  <img src="https://raw.githubusercontent.com/jeeveshverma/jeeveshverma/main/assets/banner.svg" alt="Jeevesh Verma — Software Development Engineer in Test" width="100%"/>
 </p>
+
+<p align="center">Hi 👋 &nbsp;I build the automation and validation that keeps enterprise-search releases fast and reliable.</p>
 
 <p align="center">
   <a href="https://jeeveshverma.github.io/resume/"><img src="https://img.shields.io/badge/📄_Resume-View-2563eb?style=for-the-badge" alt="Resume"/></a>
@@ -48,11 +47,10 @@ I'm an SDET focused on **backend quality** — designing scalable test automatio
 
 ---
 
-### 📊 GitHub Stats
+### 📊 Impact
 
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=jeeveshverma&show_icons=true&theme=default&hide_border=true&count_private=true" alt="GitHub stats" height="165"/>
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=jeeveshverma&layout=compact&theme=default&hide_border=true" alt="Top languages" height="165"/>
+  <img src="https://raw.githubusercontent.com/jeeveshverma/jeeveshverma/main/assets/highlights.svg" alt="By the numbers: 3+ years as SDET, 5+ connectors owned, 98% automation coverage, 100+ issues debugged" width="100%"/>
 </p>
 
 ---

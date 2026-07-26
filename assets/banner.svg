@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="210" viewBox="0 0 900 210" fill="none" font-family="'Segoe UI', Helvetica, Arial, sans-serif">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#1e3a8a"/>
+      <stop offset="1" stop-color="#2563eb"/>
+    </linearGradient>
+  </defs>
+  <rect width="900" height="210" rx="20" fill="url(#bg)"/>
+  <circle cx="830" cy="30" r="110" fill="#ffffff" opacity="0.06"/>
+  <circle cx="770" cy="190" r="70" fill="#ffffff" opacity="0.05"/>
+  <circle cx="700" cy="60" r="6" fill="#ffffff" opacity="0.35"/>
+  <circle cx="740" cy="120" r="4" fill="#ffffff" opacity="0.3"/>
+  <text x="52" y="92" fill="#ffffff" font-size="44" font-weight="700" letter-spacing="-0.5">Jeevesh Verma</text>
+  <text x="54" y="132" fill="#cfe0ff" font-size="21" font-weight="600">Software Development Engineer in Test (SDET)</text>
+  <text x="54" y="166" fill="#a9c4ff" font-size="15" font-weight="400">Backend Testing &#183; API Automation &#183; Connector Validation &#183; CI/CD Quality</text>
+</svg>

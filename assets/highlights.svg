@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="200" viewBox="0 0 900 200" fill="none" font-family="'Segoe UI', Helvetica, Arial, sans-serif">
+  <rect x="1" y="1" width="898" height="198" rx="20" fill="#f7f9fc" stroke="#e6e9f0" stroke-width="2"/>
+  <text x="44" y="52" fill="#1a1f36" font-size="21" font-weight="700">By the numbers</text>
+  <rect x="44" y="66" width="46" height="4" rx="2" fill="#2563eb"/>
+
+  <!-- Stat 1 -->
+  <text x="150" y="128" fill="#2563eb" font-size="46" font-weight="800" text-anchor="middle">3+</text>
+  <text x="150" y="158" fill="#5b6478" font-size="15" font-weight="500" text-anchor="middle">Years as SDET</text>
+
+  <!-- divider -->
+  <rect x="285" y="96" width="2" height="56" rx="1" fill="#e0e5ee"/>
+
+  <!-- Stat 2 -->
+  <text x="378" y="128" fill="#2563eb" font-size="46" font-weight="800" text-anchor="middle">5+</text>
+  <text x="378" y="158" fill="#5b6478" font-size="15" font-weight="500" text-anchor="middle">Connectors owned</text>
+
+  <!-- divider -->
+  <rect x="513" y="96" width="2" height="56" rx="1" fill="#e0e5ee"/>
+
+  <!-- Stat 3 -->
+  <text x="606" y="128" fill="#2563eb" font-size="46" font-weight="800" text-anchor="middle">98%</text>
+  <text x="606" y="158" fill="#5b6478" font-size="15" font-weight="500" text-anchor="middle">Automation coverage</text>
+
+  <!-- divider -->
+  <rect x="741" y="96" width="2" height="56" rx="1" fill="#e0e5ee"/>
+
+  <!-- Stat 4 -->
+  <text x="820" y="128" fill="#2563eb" font-size="46" font-weight="800" text-anchor="middle">100+</text>
+  <text x="820" y="158" fill="#5b6478" font-size="15" font-weight="500" text-anchor="middle">Issues debugged</text>
+</svg>
