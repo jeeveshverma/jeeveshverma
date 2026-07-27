@@ -5,7 +5,7 @@
 <p align="center">Hi 👋 &nbsp;I build the automation and validation that keeps enterprise-search releases fast and reliable.</p>
 
 <p align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&pause=1000&color=38BDF8&center=true&vCenter=true&width=600&lines=SDET+with+a+backend+engineering+edge;Test+automation+%C2%B7+release+qualification;Go+%C2%B7+Java+%C2%B7+Python;Making+releases+faster+AND+safer" alt="Typing SVG"/>
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&pause=1000&color=38BDF8&center=true&vCenter=true&width=620&lines=Software+Development+Engineer+in+Test;Test+automation+%C2%B7+release+qualification;API+%C2%B7+connector+%C2%B7+end-to-end+validation;Making+releases+faster+AND+safer" alt="Typing SVG"/>
 </p>
 
 <p align="center">
@@ -35,10 +35,10 @@ I'm an SDET focused on **backend quality** — designing scalable test automatio
 
 **Languages**
 
-![Go](https://img.shields.io/badge/Go-00ADD8?style=flat-square&logo=go&logoColor=white)
 ![Java](https://img.shields.io/badge/Java-007396?style=flat-square&logo=openjdk&logoColor=white)
 ![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
 ![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white)
+![Go](https://img.shields.io/badge/Go-00ADD8?style=flat-square&logo=go&logoColor=white)
 ![SQL](https://img.shields.io/badge/SQL-4479A1?style=flat-square&logo=postgresql&logoColor=white)
 ![Bash](https://img.shields.io/badge/Bash-4EAA25?style=flat-square&logo=gnubash&logoColor=white)
 
@@ -70,7 +70,7 @@ I'm an SDET focused on **backend quality** — designing scalable test automatio
 
 ### 🚀 Featured Projects
 
-Backend/infra projects built from scratch — production-shaped, fully tested, and **zero third-party dependencies** (Go standard library only).
+A good tester builds the systems they break. These are production-shaped services I wrote from scratch — **fully tested, CI-gated, zero third-party dependencies** — to stay fluent in how real backends behave under load, failure, and retries.
 
 <table>
 <tr>
