@@ -1,30 +1,48 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="900" height="200" viewBox="0 0 900 200" fill="none" font-family="'Segoe UI', Helvetica, Arial, sans-serif">
-  <rect x="1" y="1" width="898" height="198" rx="20" fill="#f7f9fc" stroke="#e6e9f0" stroke-width="2"/>
-  <text x="44" y="52" fill="#1a1f36" font-size="21" font-weight="700">By the numbers</text>
-  <rect x="44" y="66" width="46" height="4" rx="2" fill="#2563eb"/>
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="240" viewBox="0 0 1200 240" fill="none" font-family="'Segoe UI', Helvetica, Arial, sans-serif">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0d1424"/>
+      <stop offset="1" stop-color="#111a2e"/>
+    </linearGradient>
+    <linearGradient id="num" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#7dd3fc"/>
+      <stop offset="1" stop-color="#2563eb"/>
+    </linearGradient>
+    <linearGradient id="rule" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#38bdf8"/>
+      <stop offset="1" stop-color="#2563eb"/>
+    </linearGradient>
+  </defs>
 
-  <!-- Stat 1 -->
-  <text x="150" y="128" fill="#2563eb" font-size="46" font-weight="800" text-anchor="middle">3+</text>
-  <text x="150" y="158" fill="#5b6478" font-size="15" font-weight="500" text-anchor="middle">Years as SDET</text>
+  <rect x="1" y="1" width="1198" height="238" rx="24" fill="url(#bg)" stroke="#24304a" stroke-width="2"/>
 
-  <!-- divider -->
-  <rect x="285" y="96" width="2" height="56" rx="1" fill="#e0e5ee"/>
+  <text x="44" y="52" fill="#e6edf3" font-size="22" font-weight="700">By the numbers</text>
+  <rect x="46" y="64" width="52" height="4" rx="2" fill="url(#rule)"/>
 
-  <!-- Stat 2 -->
-  <text x="378" y="128" fill="#2563eb" font-size="46" font-weight="800" text-anchor="middle">5+</text>
-  <text x="378" y="158" fill="#5b6478" font-size="15" font-weight="500" text-anchor="middle">Connectors owned</text>
+  <g stroke="#38bdf8" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" fill="none" opacity="0.9">
+    <!-- clock -->
+    <g transform="translate(70,104)"><circle cx="11" cy="11" r="11"/><path d="M11 5 V11 L15 14"/></g>
+    <!-- plug / connectors -->
+    <g transform="translate(360,104)"><path d="M4 14 L14 4"/><path d="M2 22 L8 16"/><path d="M14 4 l4 4"/><path d="M8 10 l4 4"/><path d="M18 8 l4 -4"/><path d="M14 14 l4 4 -4 4"/></g>
+    <!-- shield check -->
+    <g transform="translate(650,104)"><path d="M12 2 L22 6 V13 C22 18 17 21 12 22 C7 21 2 18 2 13 V6 Z"/><path d="M7.5 12 l3 3 6 -6"/></g>
+    <!-- bug -->
+    <g transform="translate(940,104)"><rect x="7" y="8" width="10" height="12" rx="5"/><path d="M9 4 l2 3 M15 4 l-2 3 M2 11 h4 M18 11 h4 M2 17 h4 M18 17 h4 M12 8 v12"/></g>
+  </g>
 
-  <!-- divider -->
-  <rect x="513" y="96" width="2" height="56" rx="1" fill="#e0e5ee"/>
+  <g text-anchor="start">
+    <text x="112" y="128" fill="url(#num)" font-size="50" font-weight="800">3+</text>
+    <text x="70"  y="162" fill="#8b98b0" font-size="15" font-weight="500">Years as SDET</text>
 
-  <!-- Stat 3 -->
-  <text x="606" y="128" fill="#2563eb" font-size="46" font-weight="800" text-anchor="middle">98%</text>
-  <text x="606" y="158" fill="#5b6478" font-size="15" font-weight="500" text-anchor="middle">Automation coverage</text>
+    <text x="402" y="128" fill="url(#num)" font-size="50" font-weight="800">5+</text>
+    <text x="360" y="162" fill="#8b98b0" font-size="15" font-weight="500">Connectors owned</text>
 
-  <!-- divider -->
-  <rect x="741" y="96" width="2" height="56" rx="1" fill="#e0e5ee"/>
+    <text x="692" y="128" fill="url(#num)" font-size="50" font-weight="800">98%</text>
+    <text x="650" y="162" fill="#8b98b0" font-size="15" font-weight="500">Automation coverage</text>
 
-  <!-- Stat 4 -->
-  <text x="820" y="128" fill="#2563eb" font-size="46" font-weight="800" text-anchor="middle">100+</text>
-  <text x="820" y="158" fill="#5b6478" font-size="15" font-weight="500" text-anchor="middle">Issues debugged</text>
+    <text x="982" y="128" fill="url(#num)" font-size="50" font-weight="800">100+</text>
+    <text x="940" y="162" fill="#8b98b0" font-size="15" font-weight="500">Issues debugged</text>
+  </g>
+
+  <rect x="0" y="236" width="1200" height="4" fill="url(#rule)"/>
 </svg>

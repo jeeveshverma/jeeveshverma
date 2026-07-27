@@ -5,7 +5,7 @@
 <p align="center">Hi 👋 &nbsp;I build the automation and validation that keeps enterprise-search releases fast and reliable.</p>
 
 <p align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=20&pause=1000&color=2563EB&center=true&vCenter=true&width=560&lines=SDET+with+a+backend+engineering+edge;Test+automation+%C2%B7+release+qualification;Go+%C2%B7+Java+%C2%B7+Python;Making+releases+faster+AND+safer" alt="Typing SVG"/>
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&pause=1000&color=38BDF8&center=true&vCenter=true&width=600&lines=SDET+with+a+backend+engineering+edge;Test+automation+%C2%B7+release+qualification;Go+%C2%B7+Java+%C2%B7+Python;Making+releases+faster+AND+safer" alt="Typing SVG"/>
 </p>
 
 <p align="center">
@@ -114,11 +114,15 @@ Background **job queue** in Go — worker pool with exponential-backoff retries,
 ### 📈 Activity
 
 <p align="center">
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=jeeveshverma&theme=tokyonight&hide_border=true" alt="GitHub streak"/>
+  <img src="https://streak-stats.demolab.com?user=jeeveshverma&theme=tokyonight&hide_border=true&border_radius=12&background=0D1424&ring=38BDF8&fire=38BDF8&currStreakLabel=7DD3FC" alt="GitHub streak"/>
 </p>
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/jeeveshverma/jeeveshverma/output/github-snake-dark.svg" alt="Contribution snake animation"/>
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/jeeveshverma/jeeveshverma/output/github-snake-dark.svg"/>
+    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/jeeveshverma/jeeveshverma/output/github-snake.svg"/>
+    <img src="https://raw.githubusercontent.com/jeeveshverma/jeeveshverma/output/github-snake-dark.svg" alt="Contribution snake animation"/>
+  </picture>
 </p>
 
 ---

@@ -1,16 +1,73 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="900" height="210" viewBox="0 0 900 210" fill="none" font-family="'Segoe UI', Helvetica, Arial, sans-serif">
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="330" viewBox="0 0 1200 330" fill="none" font-family="'Segoe UI', Helvetica, Arial, sans-serif">
   <defs>
     <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
-      <stop offset="0" stop-color="#1e3a8a"/>
+      <stop offset="0" stop-color="#0b1120"/>
+      <stop offset="0.55" stop-color="#111a2e"/>
+      <stop offset="1" stop-color="#0d1424"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#38bdf8"/>
       <stop offset="1" stop-color="#2563eb"/>
     </linearGradient>
+    <linearGradient id="accent2" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#38bdf8"/>
+      <stop offset="0.5" stop-color="#818cf8"/>
+      <stop offset="1" stop-color="#2563eb"/>
+    </linearGradient>
+    <radialGradient id="orb1" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0" stop-color="#2563eb" stop-opacity="0.55"/>
+      <stop offset="1" stop-color="#2563eb" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="orb2" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0" stop-color="#38bdf8" stop-opacity="0.45"/>
+      <stop offset="1" stop-color="#38bdf8" stop-opacity="0"/>
+    </radialGradient>
+    <pattern id="dots" width="26" height="26" patternUnits="userSpaceOnUse">
+      <circle cx="1.5" cy="1.5" r="1.5" fill="#ffffff" opacity="0.05"/>
+    </pattern>
+    <clipPath id="round"><rect width="1200" height="330" rx="24"/></clipPath>
   </defs>
-  <rect width="900" height="210" rx="20" fill="url(#bg)"/>
-  <circle cx="830" cy="30" r="110" fill="#ffffff" opacity="0.06"/>
-  <circle cx="770" cy="190" r="70" fill="#ffffff" opacity="0.05"/>
-  <circle cx="700" cy="60" r="6" fill="#ffffff" opacity="0.35"/>
-  <circle cx="740" cy="120" r="4" fill="#ffffff" opacity="0.3"/>
-  <text x="52" y="92" fill="#ffffff" font-size="44" font-weight="700" letter-spacing="-0.5">Jeevesh Verma</text>
-  <text x="54" y="132" fill="#cfe0ff" font-size="21" font-weight="600">Software Development Engineer in Test (SDET)</text>
-  <text x="54" y="166" fill="#a9c4ff" font-size="15" font-weight="400">Backend Testing &#183; API Automation &#183; Connector Validation &#183; CI/CD Quality</text>
+
+  <g clip-path="url(#round)">
+    <rect width="1200" height="330" fill="url(#bg)"/>
+    <rect width="1200" height="330" fill="url(#dots)"/>
+
+    <!-- glowing orbs -->
+    <circle cx="1010" cy="70" r="230" fill="url(#orb1)">
+      <animate attributeName="cy" values="70;110;70" dur="9s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="1120" cy="300" r="180" fill="url(#orb2)">
+      <animate attributeName="cx" values="1120;1050;1120" dur="11s" repeatCount="indefinite"/>
+    </circle>
+
+    <!-- monogram badge -->
+    <g>
+      <rect x="60" y="112" width="106" height="106" rx="26" fill="url(#accent)"/>
+      <rect x="60" y="112" width="106" height="106" rx="26" fill="none" stroke="#ffffff" stroke-opacity="0.25" stroke-width="1.5"/>
+      <text x="113" y="185" text-anchor="middle" fill="#ffffff" font-size="52" font-weight="800" letter-spacing="-1">JV</text>
+    </g>
+
+    <!-- text block -->
+    <text x="200" y="140" fill="#ffffff" font-size="52" font-weight="800" letter-spacing="-1.2">Jeevesh Verma</text>
+    <text x="202" y="182" fill="#7dd3fc" font-size="23" font-weight="700" letter-spacing="0.2">Software Development Engineer in Test</text>
+    <text x="202" y="214" fill="#94a3b8" font-size="16" font-weight="400">Backend quality &#183; Test automation &#183; Connector &amp; release validation</text>
+
+    <!-- tech strip -->
+    <g font-size="14" font-weight="600" text-anchor="middle">
+      <rect x="202" y="238" width="66" height="30" rx="15" fill="#1e293b" stroke="#334155" stroke-width="1"/>
+      <text x="235" y="258" fill="#cbd5e1">Go</text>
+      <rect x="276" y="238" width="80" height="30" rx="15" fill="#1e293b" stroke="#334155" stroke-width="1"/>
+      <text x="316" y="258" fill="#cbd5e1">Java</text>
+      <rect x="364" y="238" width="90" height="30" rx="15" fill="#1e293b" stroke="#334155" stroke-width="1"/>
+      <text x="409" y="258" fill="#cbd5e1">Python</text>
+      <rect x="462" y="238" width="118" height="30" rx="15" fill="#1e293b" stroke="#334155" stroke-width="1"/>
+      <text x="521" y="258" fill="#cbd5e1">TypeScript</text>
+      <rect x="588" y="238" width="118" height="30" rx="15" fill="#1e293b" stroke="#334155" stroke-width="1"/>
+      <text x="647" y="258" fill="#cbd5e1">Playwright</text>
+    </g>
+
+    <!-- accent underlines -->
+    <rect x="200" y="300" width="520" height="4" rx="2" fill="url(#accent2)" opacity="0.9"/>
+    <rect x="0" y="326" width="1200" height="4" fill="url(#accent2)"/>
+  </g>
 </svg>
