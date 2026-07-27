@@ -54,16 +54,16 @@
 
     <!-- tech strip -->
     <g font-size="14" font-weight="600" text-anchor="middle">
-      <rect x="202" y="238" width="66" height="30" rx="15" fill="#1e293b" stroke="#334155" stroke-width="1"/>
-      <text x="235" y="258" fill="#cbd5e1">Go</text>
-      <rect x="276" y="238" width="80" height="30" rx="15" fill="#1e293b" stroke="#334155" stroke-width="1"/>
-      <text x="316" y="258" fill="#cbd5e1">Java</text>
-      <rect x="364" y="238" width="90" height="30" rx="15" fill="#1e293b" stroke="#334155" stroke-width="1"/>
-      <text x="409" y="258" fill="#cbd5e1">Python</text>
-      <rect x="462" y="238" width="118" height="30" rx="15" fill="#1e293b" stroke="#334155" stroke-width="1"/>
-      <text x="521" y="258" fill="#cbd5e1">TypeScript</text>
-      <rect x="588" y="238" width="118" height="30" rx="15" fill="#1e293b" stroke="#334155" stroke-width="1"/>
-      <text x="647" y="258" fill="#cbd5e1">Playwright</text>
+      <rect x="202" y="238" width="132" height="30" rx="15" fill="#1e293b" stroke="#334155" stroke-width="1"/>
+      <text x="268" y="258" fill="#cbd5e1">REST Assured</text>
+      <rect x="342" y="238" width="64" height="30" rx="15" fill="#1e293b" stroke="#334155" stroke-width="1"/>
+      <text x="374" y="258" fill="#cbd5e1">Java</text>
+      <rect x="414" y="238" width="84" height="30" rx="15" fill="#1e293b" stroke="#334155" stroke-width="1"/>
+      <text x="456" y="258" fill="#cbd5e1">Python</text>
+      <rect x="506" y="238" width="98" height="30" rx="15" fill="#1e293b" stroke="#334155" stroke-width="1"/>
+      <text x="555" y="258" fill="#cbd5e1">Selenium</text>
+      <rect x="612" y="238" width="112" height="30" rx="15" fill="#1e293b" stroke="#334155" stroke-width="1"/>
+      <text x="668" y="258" fill="#cbd5e1">Playwright</text>
     </g>
 
     <!-- accent underlines -->
